@@ -13,7 +13,7 @@ packages:
 - "faketime"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://alvastudio@bitbucket.org/alvastudio/katecoin.git"
+- "url": "https://github.com/AlvaStudio/Katecoin.git"
   "dir": "katecoin"
 files:
 - "qt-win32-4.8.5-gitian-r8.zip"
