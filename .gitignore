@@ -1,0 +1,34 @@
+src/*.exe
+src/katecoin
+src/katecoind
+src/test_katecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.katecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+katecoin-qt
+Katecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+katecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
